@@ -1,3 +1,4 @@
+<?php $currentPage = basename($_SERVER['SCRIPT_NAME'] ?? 'index.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,19 +21,18 @@
 
             <a href="/esl-consulting/" class="logo">
                 <img
-                    src="/esl-consulting/static/images/logo/ESL%20Logo%20(2).png"
+                    src="/esl-consulting/static/images/logo/logohead.png"
                     alt="ESL Consulting Ltd"
                 >
             </a>
 
             <div class="nav-links">
-                <a href="/esl-consulting/">Home</a>
-                <a href="/esl-consulting/about.php">About</a>
-                <a href="/esl-consulting/services.php">Services</a>
-                <a href="/esl-consulting/sectors.php">Sectors</a>
-                <a href="/esl-consulting/projects.php">Projects</a>
-                <a href="/esl-consulting/insights.php">Insights</a>
-                <a href="/esl-consulting/contact.php">Contact</a>
+                <a href="/esl-consulting/" <?php echo $currentPage === 'index.php' ? 'aria-current="page"' : ''; ?>>Home</a>
+                <a href="/esl-consulting/about.php" <?php echo $currentPage === 'about.php' ? 'aria-current="page"' : ''; ?>>About</a>
+                <a href="/esl-consulting/services.php" <?php echo $currentPage === 'services.php' ? 'aria-current="page"' : ''; ?>>Services</a>
+                <a href="/esl-consulting/sectors.php" <?php echo $currentPage === 'sectors.php' ? 'aria-current="page"' : ''; ?>>Sectors</a>
+                <a href="/esl-consulting/projects.php" <?php echo $currentPage === 'projects.php' ? 'aria-current="page"' : ''; ?>>Projects</a>
+                <a href="/esl-consulting/contact.php" <?php echo $currentPage === 'contact.php' ? 'aria-current="page"' : ''; ?>>Contact</a>
             </div>
 
         </nav>

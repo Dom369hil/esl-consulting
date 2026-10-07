@@ -239,6 +239,11 @@
                             Submit Enquiry
                         </button>
 
+                        <p class="contact-form-fallback">
+                            If WhatsApp does not open, email
+                            <a href="mailto:akarmah@esl-ghana.com">Obed, Client Relations</a>.
+                        </p>
+
                     </form>
 
                 </div>
@@ -248,33 +253,6 @@
         </div>
     </section>
 
-
-    <!-- Website -->
-    <section class="contact-website">
-        <div class="container">
-
-            <div class="contact-website-content">
-
-                <p class="section-label">
-                    ONLINE
-                </p>
-
-                <h2>
-                    Visit ESL Consulting Online
-                </h2>
-
-                <a
-                    href="https://www.esl-ghana.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    www.esl-ghana.com
-                </a>
-
-            </div>
-
-        </div>
-    </section>
 
 </main>
 

@@ -9,13 +9,12 @@
             <p class="section-label">PROJECT EXPERIENCE</p>
 
             <h1>
-                Experience Across Diverse EHSS Assignments
+                Technical Experience Across Critical Sectors
             </h1>
 
             <p>
-                Selected project experience demonstrating ESL's technical
-                capabilities across environmental, safety, geotechnical,
-                ecological and sustainability-related assignments.
+                Selected assignments in environmental monitoring, tailings
+                facility studies, safety compliance and habitat restoration.
             </p>
 
         </div>
@@ -39,16 +38,9 @@
                 <div class="about-text">
 
                     <p>
-                        ESL's project experience includes assignments for
-                        organisations operating across mining, oil and gas,
-                        energy and related sectors.
-                    </p>
-
-                    <p>
-                        The experience covers environmental monitoring,
-                        groundwater assessment, geotechnical surveys,
-                        ecological monitoring, compliance, safety assessments
-                        and environmental and social impact studies.
+                        Documented projects cover environmental monitoring,
+                        groundwater and tailings facility studies, safety and
+                        regulatory compliance, and ecological restoration.
                     </p>
 
                 </div>
@@ -59,213 +51,92 @@
     </section>
 
 
-    <!-- Selected Experience -->
+    <!-- Selected Project Experience -->
     <section class="project-experience-list">
         <div class="container">
 
             <div class="section-heading">
-                <p class="section-label">SELECTED EXPERIENCE</p>
+                <p class="section-label">SELECTED PROJECT EXPERIENCE</p>
 
                 <h2>
-                    Areas of Project Experience
+                    Documented Project Assignments
                 </h2>
             </div>
 
-
-            <div class="experience-grid">
-
-                <article class="experience-card">
-
-                    <p class="experience-category">
-                        ENVIRONMENTAL MONITORING
-                    </p>
-
-                    <h3>
-                        Groundwater Monitoring
-                    </h3>
-
-                    <p>
-                        Project experience involving groundwater monitoring
-                        and assessment activities.
-                    </p>
-
-                </article>
-
-
-                <article class="experience-card">
-
-                    <p class="experience-category">
-                        TECHNICAL ASSESSMENT
-                    </p>
-
-                    <h3>
-                        Borehole Infrastructure Assessment
-                    </h3>
-
-                    <p>
-                        Technical assessment of borehole infrastructure and
-                        associated water-resource requirements.
-                    </p>
-
-                </article>
-
-
-                <article class="experience-card">
-
-                    <p class="experience-category">
-                        GEOTECHNICAL
-                    </p>
-
-                    <h3>
-                        TSF Surveys & Monitoring
-                    </h3>
-
-                    <p>
-                        Technical surveys and monitoring relating to
-                        tailings storage facilities.
-                    </p>
-
-                </article>
-
-
-                <article class="experience-card">
-
-                    <p class="experience-category">
-                        GIS & REMOTE SENSING
-                    </p>
-
-                    <h3>
-                        Remote Sensing & GIS
-                    </h3>
-
-                    <p>
-                        Application of remote sensing and GIS techniques
-                        within environmental and technical assessments.
-                    </p>
-
-                </article>
-
-
-                <article class="experience-card">
-
-                    <p class="experience-category">
-                        SAFETY & COMPLIANCE
-                    </p>
-
-                    <h3>
-                        Safety Case Assessments
-                    </h3>
-
-                    <p>
-                        Experience supporting Safety Case assessments and
-                        related safety and compliance requirements.
-                    </p>
-
-                </article>
-
-
-                <article class="experience-card">
-
-                    <p class="experience-category">
-                        ECOLOGY
-                    </p>
-
-                    <h3>
-                        Ecological Monitoring & Habitat Restoration
-                    </h3>
-
-                    <p>
-                        Experience in ecological monitoring, habitat
-                        restoration and related environmental work.
-                    </p>
-
-                </article>
-
-
-                <article class="experience-card">
-
-                    <p class="experience-category">
-                        ENVIRONMENTAL PLANNING
-                    </p>
-
-                    <h3>
-                        Environmental Management Plans
-                    </h3>
-
-                    <p>
-                        Experience supporting the development and
-                        implementation of environmental management plans.
-                    </p>
-
-                </article>
-
-
-                <article class="experience-card">
-
-                    <p class="experience-category">
-                        IMPACT ASSESSMENT
-                    </p>
-
-                    <h3>
-                        Environmental, Social & Health Impact Assessments
-                    </h3>
-
-                    <p>
-                        Experience involving environmental, social and
-                        health impact assessment assignments.
-                    </p>
-
-                </article>
-
+            <div class="project-table-wrapper">
+                <table>
+                    <caption>Selected project experience</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Client</th>
+                            <th scope="col">Project / Scope</th>
+                            <th scope="col">Period</th>
+                            <th scope="col">Sector</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>AngloGold Ashanti</td>
+                            <td>Groundwater Monitoring &amp; Borehole Infrastructure Assessment</td>
+                            <td>2008–2010</td>
+                            <td>Environment</td>
+                        </tr>
+                        <tr>
+                            <td>Adamus Resources</td>
+                            <td>Tailings Storage Facility Survey and Monitoring Studies including remote sensing and GIS analysis</td>
+                            <td>2017–2019</td>
+                            <td>Environment</td>
+                        </tr>
+                        <tr>
+                            <td>Future Global Resources Bogoso/Prestea Limited</td>
+                            <td>Tailings Storage Facility Survey and Monitoring Studies including remote sensing and GIS analysis</td>
+                            <td>2017–Present</td>
+                            <td>Environment</td>
+                        </tr>
+                        <tr>
+                            <td>Golden Star Wassa Mines</td>
+                            <td>Tailings Storage Facility Survey and Monitoring Studies including remote sensing and GIS analysis</td>
+                            <td>2018–Present</td>
+                            <td>Environment</td>
+                        </tr>
+                        <tr>
+                            <td>Yinson Production Ghana</td>
+                            <td>Compliance Register of Regulatory Requirements for FPSO JAK and Onshore Base</td>
+                            <td>2023–2024</td>
+                            <td>Safety &amp; Compliance</td>
+                        </tr>
+                        <tr>
+                            <td>ENI E&amp;P Ghana</td>
+                            <td>Safety Case Assessment, including review of the Safety Case for FPSO John Agyekum Kufour and development of a new Safety Case for ORF at Sanzule</td>
+                            <td>2022–2024</td>
+                            <td>Safety &amp; Compliance</td>
+                        </tr>
+                        <tr>
+                            <td>ENI E&amp;P Ghana</td>
+                            <td>Environmental Monitoring including stack emissions, noise, air quality, heat stress, potable water, produced water and effluent monitoring on ORF; groundwater and surface-water monitoring; geotechnical survey/testing</td>
+                            <td>2014–Present</td>
+                            <td>Environment Monitoring</td>
+                        </tr>
+                        <tr>
+                            <td>Tullow Ghana Limited</td>
+                            <td>Environmental Monitoring including stack emissions, noise, air quality, heat stress, potable water, produced water and effluent monitoring on FPSO Kwame Nkrumah</td>
+                            <td>2025–Present</td>
+                            <td>Environment Monitoring</td>
+                        </tr>
+                        <tr>
+                            <td>ENI E&amp;P Ghana</td>
+                            <td>Restoration of degraded habitats at the ENI ORF Concession, Sanzule, covering approximately 10 ha, including ecological monitoring of flora and fauna</td>
+                            <td>2019–2025</td>
+                            <td>Ecological &amp; Reclamation</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
 
         </div>
     </section>
 
-
-    <!-- Organisations -->
-    <section class="organisations-section">
-        <div class="container">
-
-            <div class="section-heading">
-                <p class="section-label">PROJECT EXPERIENCE INCLUDES</p>
-
-                <h2>
-                    Organisations Represented in the Company Profile
-                </h2>
-
-                <p>
-                    The following organisations are included in ESL's
-                    documented project experience.
-                </p>
-            </div>
-
-
-            <div class="organisation-grid">
-
-                <div>AngloGold Ashanti</div>
-
-                <div>Adamus Resources</div>
-
-                <div>Future Global Resources / Bogoso-Prestea</div>
-
-                <div>Golden Star Wassa Mines</div>
-
-                <div>Yinson Production Ghana</div>
-
-                <div>ENI E&amp;P Ghana</div>
-
-                <div>Tullow Ghana Limited</div>
-
-                <div>WAPCo</div>
-
-                <div>Pecan Energies</div>
-
-            </div>
-
-        </div>
-    </section>
-
+    <?php include 'includes/project-experience-showcase.php'; ?>
 
     <!-- CTA -->
     <section class="consultation-cta">

@@ -30,19 +30,6 @@
                 <p>Your Trusted Partner in Environment, Health, Safety and Sustainability Solutions</p>
             </section>
 
-            <nav class="footer-column" aria-label="Quick links">
-                <h2 class="footer-heading">Quick Links</h2>
-                <ul class="footer-link-list">
-                    <li><a href="/esl-consulting/">Home</a></li>
-                    <li><a href="/esl-consulting/about.php">About</a></li>
-                    <li><a href="/esl-consulting/services.php">Services</a></li>
-                    <li><a href="/esl-consulting/sectors.php">Sectors</a></li>
-                    <li><a href="/esl-consulting/projects.php">Projects</a></li>
-                    <li><a href="/esl-consulting/insights.php">Insights</a></li>
-                    <li><a href="/esl-consulting/contact.php">Contact</a></li>
-                </ul>
-            </nav>
-
             <section class="footer-column">
                 <h2 class="footer-heading">Email</h2>
                 <ul class="footer-link-list footer-contact-list">
@@ -59,21 +46,17 @@
                     <li><a href="tel:+233243943889">+233 (0)24 3943889 <span>— Obed (Client Relations)</span></a></li>
                     <li><a href="tel:+233209046739">+233 (0)20 9046739 <span>— Solomon (Technical)</span></a></li>
                 </ul>
-                <div class="footer-website">
-                    <h3 class="footer-subheading">Website</h3>
-                    <a href="https://www.esl-ghana.com">www.esl-ghana.com</a>
-                </div>
             </section>
-        </div>
 
-        <div class="footer-offices">
-            <section>
-                <h2 class="footer-subheading">Head Office</h2>
-                <address>No. 8 Ago Ali (Fifth) Street,<br>Off Trinity Avenue,<br>Mempeasem, East Legon,<br>Accra-Ghana</address>
-            </section>
-            <section>
-                <h2 class="footer-subheading">Takoradi Office</h2>
-                <address>Anaji</address>
+            <section class="footer-column footer-offices">
+                <div class="footer-office">
+                    <h2 class="footer-subheading">Head Office</h2>
+                    <address>No. 8 Ago Ali (Fifth) Street,<br>Off Trinity Avenue,<br>Mempeasem, East Legon,<br>Accra-Ghana</address>
+                </div>
+                <div class="footer-office">
+                    <h2 class="footer-subheading">Takoradi Office</h2>
+                    <address>Anaji</address>
+                </div>
             </section>
         </div>
         <?php endif; ?>

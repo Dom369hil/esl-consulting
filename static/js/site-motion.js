@@ -1,4 +1,25 @@
 (() => {
+    const contactForm = document.querySelector(".contact-page .contact-form");
+
+    contactForm?.addEventListener("submit", (event) => {
+        event.preventDefault();
+
+        const formData = new FormData(contactForm);
+        const message = [
+            "ESL Consulting enquiry",
+            `Name: ${formData.get("name")}`,
+            `Company: ${formData.get("company")}`,
+            `Email: ${formData.get("email")}`,
+            `Phone: ${formData.get("phone")}`,
+            `Area of Interest: ${formData.get("service")}`,
+            `Message: ${formData.get("message")}`
+        ].filter((line) => !line.endsWith(": ")).join("\n");
+
+        const whatsappUrl = new URL("https://wa.me/233243943889");
+        whatsappUrl.searchParams.set("text", message);
+        window.open(whatsappUrl.toString(), "_blank", "noopener,noreferrer");
+    });
+
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
     if (reducedMotion.matches) {
@@ -12,7 +33,7 @@
         ".projects-record [data-projects-reveal], " +
         ".accreditation-item, .service-detail-header, .service-detail-image, " +
         ".service-list-item, .sector-detail-layout, .experience-card, " +
-        ".insight-card, .contact-info, .contact-form-wrapper, .cta-content, " +
+        ".contact-info, .contact-form-wrapper, .cta-content, " +
         ".vision-mission-item, .home-about [data-about-reveal], " +
         ".home-direction [data-direction-reveal]"
     );
@@ -39,7 +60,7 @@
     }
 
     const parallaxImages = document.querySelectorAll(
-        ".hero-background img, .about-hero-image img, .expertise-image-photo, .sector-card-image"
+        ".expertise-image-photo, .sector-card-image"
     );
     const expertiseFeatures = document.querySelectorAll(".expertise-feature");
     const sectorArc = document.querySelector("[data-sector-arc]");

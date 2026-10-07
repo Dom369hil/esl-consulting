@@ -1,12 +1,11 @@
 <?php include 'includes/header.php'; ?>
 
-<main>
+<main class="about-page">
 
-    <!-- Page Hero -->
     <section class="page-hero about-hero">
         <div class="about-hero-image">
             <img
-                src="/esl-consulting/static/images/consultants/consultants.jpg"
+                src="/esl-consulting/static/images/consultants/about.jpg"
                 alt="ESL Consulting professionals conducting field work"
             >
         </div>
@@ -25,68 +24,63 @@
         </div>
     </section>
 
-
-    <!-- Who We Are -->
     <section class="about-intro">
         <div class="container">
-
-            <div class="about-layout">
-
-                <div>
+            <div class="about-layout about-intro-layout">
+                <div class="about-intro-copy">
                     <p class="section-label">WHO WE ARE</p>
 
                     <h2>
                         Environmental, Health, Safety and Sustainability
                         Consulting
                     </h2>
+
+                    <p class="about-intro-summary">
+                        ESL Consulting Limited is an Environmental, Health,
+                        Safety and Sustainability (EHSS) consulting firm,
+                        supporting responsible operations across Ghana and the
+                        wider sub-region.
+                    </p>
                 </div>
 
                 <div class="about-text">
-
                     <p>
-                        ESL Consulting Limited is a safety consulting firm
-                        experienced in delivering Environmental, Health, Safety
-                        and Sustainability (EHSS) solutions across diverse
-                        sectors, including mining and extractives, energy,
-                        aviation, ports, and water resources development and
-                        management.
+                        ESL Consulting Limited is a specialised consulting firm
+                        experienced in delivering technical and advisory support
+                        across mining and extractives, energy, aviation, ports,
+                        and water resources development and management.
                     </p>
 
                     <p>
-                        We blend strategic insight, multidisciplinary
-                        expertise, and practical innovation to help clients
-                        navigate regulatory, operational, and environmental
-                        challenges with ease, making ESL Consulting a preferred
-                        choice.
+                        We bring together <span class="about-emphasis">strategic insight</span>,
+                        multidisciplinary expertise, and practical innovation to
+                        help clients navigate regulatory, operational, and
+                        environmental challenges with confidence.
                     </p>
 
                     <p>
-                        Our services are underpinned by a highly trained core
-                        team of in-house professionals and a network of
-                        specialised external consultants. Modern tools and
+                        Our work is informed by a highly trained in-house technical
+                        team supported by specialised external consultants where
+                        additional expertise is required. Modern tools and
                         instrumentation support technical assessments, field
-                        surveys, and laboratory analysis, ensuring robust,
-                        data-driven recommendations and sustainable outcomes.
+                        surveys, environmental monitoring, laboratory analysis,
+                        and data-driven recommendations.
                     </p>
 
                     <p>
                         From regulatory compliance and environmental assessment
                         to occupational health and safety and strategic risk
-                        management, we deliver high-impact, locally relevant
-                        solutions that help shape a safer and more sustainable
-                        future for Ghana and the sub-region.
+                        management, we support safer and more sustainable
+                        operations through locally relevant, technically informed
+                        solutions across Ghana and the wider sub-region.
                     </p>
-
                 </div>
-
             </div>
-
         </div>
     </section>
 
     <section class="vision-mission" aria-label="Vision and mission">
         <div class="container vision-mission-grid">
-
             <article class="vision-mission-item">
                 <p class="section-label">OUR VISION</p>
                 <h2>Our Vision</h2>
@@ -106,165 +100,303 @@
                     solutions that support Ghana and Africa’s industrial growth
                     while ensuring the safety of people, protection of the
                     environment, and compliance with national and international
-                    standards. We achieve this through:
+                    standards.
                 </p>
-                <ul class="mission-values">
-                    <li>Empowering local expertise and talent</li>
-                    <li>Upholding integrity and professionalism</li>
-                    <li>Engaging communities and regulators collaboratively</li>
-                    <li>Applying cutting-edge science with a deep respect for our local context</li>
-                </ul>
+                <p class="mission-intro">We achieve this through:</p>
+                <ol class="mission-values">
+                    <li><span class="mission-step-number">01</span><span>Empowering local expertise and talent</span></li>
+                    <li><span class="mission-step-number">02</span><span>Upholding integrity and professionalism</span></li>
+                    <li><span class="mission-step-number">03</span><span>Engaging communities and regulators collaboratively</span></li>
+                    <li><span class="mission-step-number">04</span><span>Applying cutting-edge science with a deep respect for our local context</span></li>
+                </ol>
             </article>
-
         </div>
     </section>
 
-
-    <!-- Our Approach -->
-    <section class="about-approach">
+    <section class="how-esl-works">
         <div class="container">
-
             <div class="section-heading">
-                <p class="section-label">OUR APPROACH</p>
-
-                <h2>
-                    Combining Insight, Expertise and Practical Innovation
-                </h2>
+                <p class="section-label">HOW ESL WORKS</p>
+                <h2>A four-stage approach to EHSS support</h2>
             </div>
 
-            <div class="approach-grid">
+            <div class="process-grid" aria-label="How ESL works">
+                <article class="process-step">
+                    <span class="step-number">01</span>
+                    <h3>Understand</h3>
+                    <p>
+                        We begin by considering the client's requirements and the
+                        operational, environmental, regulatory and project context
+                        relevant to the EHSS challenge.
+                    </p>
+                </article>
 
-                <article class="approach-card">
-                    <span>01</span>
+                <article class="process-step">
+                    <span class="step-number">02</span>
+                    <h3>Assess</h3>
+                    <p>
+                        ESL applies appropriate technical expertise, field assessments,
+                        surveys, monitoring, analysis and technical tools according to
+                        the requirement, using the methods and instrumentation best suited
+                        to the assignment.
+                    </p>
+                </article>
 
+                <article class="process-step">
+                    <span class="step-number">03</span>
+                    <h3>Advise</h3>
+                    <p>
+                        Technical findings are translated into practical, data-driven
+                        recommendations that can support informed decision-making and
+                        help clients respond effectively to operational and compliance needs.
+                    </p>
+                </article>
+
+                <article class="process-step">
+                    <span class="step-number">04</span>
+                    <h3>Support</h3>
+                    <p>
+                        Our role can support responsible decision-making, regulatory
+                        compliance, risk management and safer, more sustainable operations
+                        through technically informed, practical engagement.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-approach">
+        <div class="container">
+            <div class="section-heading">
+                <p class="section-label">OUR APPROACH</p>
+                <h2>Combining Insight, Expertise and Practical Innovation</h2>
+            </div>
+
+            <div class="approach-rail" aria-label="Our approach">
+                <article class="approach-item">
+                    <span class="approach-number">01</span>
                     <h3>Strategic Insight</h3>
-
                     <p>
-                        We apply strategic thinking to understand client
-                        requirements and develop practical approaches to
-                        complex EHSS challenges.
+                        ESL applies strategic thinking to understand the broader context
+                        behind an EHSS requirement, including project needs, operational
+                        realities, environmental considerations and regulatory obligations.
                     </p>
                 </article>
 
-
-                <article class="approach-card">
-                    <span>02</span>
-
+                <article class="approach-item">
+                    <span class="approach-number">02</span>
                     <h3>Multidisciplinary Expertise</h3>
-
                     <p>
-                        Our in-house technical team works alongside
-                        specialised external consultants where additional
-                        expertise is required.
+                        ESL brings together a highly trained in-house technical team and,
+                        where additional expertise is required, specialised external
+                        consultants. This allows the firm to align appropriate technical
+                        knowledge with the specific demands of each assignment.
                     </p>
                 </article>
 
-
-                <article class="approach-card">
-                    <span>03</span>
-
+                <article class="approach-item">
+                    <span class="approach-number">03</span>
                     <h3>Practical Innovation</h3>
-
                     <p>
-                        We use practical methods, modern tools and technical
-                        knowledge to support effective assessments and
+                        We combine practical methods, modern tools, instrumentation and
+                        technical knowledge to support assessments, field surveys,
+                        environmental monitoring, laboratory analysis and informed
                         decision-making.
                     </p>
                 </article>
-
             </div>
-
         </div>
     </section>
 
-
-    <!-- Technical Capability -->
     <section class="technical-capability">
         <div class="container">
-
-            <div class="about-layout">
-
+            <div class="about-layout technical-layout">
                 <div>
                     <p class="section-label">TECHNICAL CAPABILITY</p>
-
                     <h2>
-                        Supporting Technical Assessments in the Field
+                        Technical Capability Supporting Field-Based EHSS Work
                     </h2>
                 </div>
 
                 <div class="about-text">
-
                     <p>
-                        ESL uses modern tools and instrumentation to support
-                        technical assessments, field surveys and laboratory
-                        analysis.
+                        ESL combines technical expertise, field-based assessment,
+                        modern tools and instrumentation, and appropriate analysis
+                        to support EHSS assignments across a range of operational
+                        environments.
                     </p>
 
                     <p>
-                        Our capabilities support environmental monitoring,
-                        safety and compliance assessments, geotechnical
-                        studies, ecological assessments and other specialised
-                        technical requirements.
+                        The specific methods and technical approach depend on the
+                        project requirement, but the work is grounded in practical
+                        assessment, monitoring, technical review and evidence-based
+                        recommendation.
                     </p>
-
                 </div>
-
             </div>
 
+            <div class="capability-list" aria-label="Technical capability areas">
+                <article class="capability-item">
+                    <span class="capability-number">01</span>
+                    <div>
+                        <h3>Field Assessments</h3>
+                        <p>
+                            ESL supports field-based technical assessment work to develop
+                            a clear understanding of environmental, safety and operational
+                            conditions within the project context.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="capability-item">
+                    <span class="capability-number">02</span>
+                    <div>
+                        <h3>Environmental Monitoring</h3>
+                        <p>
+                            Documented work includes environmental monitoring across air
+                            quality, noise, stack emissions, heat stress, water and
+                            effluent, and related field conditions depending on the
+                            assignment.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="capability-item">
+                    <span class="capability-number">03</span>
+                    <div>
+                        <h3>Surveys & Technical Studies</h3>
+                        <p>
+                            The firm undertakes technical surveys and assessments that may
+                            include geotechnical studies, TSF monitoring, site investigations
+                            and related field-based investigations relevant to project needs.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="capability-item">
+                    <span class="capability-number">04</span>
+                    <div>
+                        <h3>Ecological & Environmental Assessments</h3>
+                        <p>
+                            ESL's capability base includes ecological monitoring,
+                            environmental assessments and associated technical studies that
+                            support informed environmental and operational decision-making.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="capability-item">
+                    <span class="capability-number">05</span>
+                    <div>
+                        <h3>Data, Analysis & Reporting</h3>
+                        <p>
+                            Field observations, monitoring results and technical findings are
+                            supported by analysis and data-driven reporting, with remote sensing
+                            and GIS used as part of the broader technical evidence base where relevant.
+                        </p>
+                    </div>
+                </article>
+            </div>
         </div>
     </section>
 
-
-    <!-- Accreditations -->
     <section class="accreditations">
         <div class="container">
-
-            <div class="section-heading">
+            <div class="section-heading accreditation-heading">
                 <p class="section-label">ACCREDITATION & CERTIFICATION</p>
-
                 <h2>
                     Professional Standards and Regulatory Recognition
                 </h2>
+                <p class="accreditation-intro">
+                    ESL's professional practice is supported by regulatory registration,
+                    environmental accreditation and ISO certification.
+                </p>
             </div>
 
-            <div class="accreditation-grid">
-
-                <div class="accreditation-item">
+            <div class="accreditation-grid" aria-label="ESL accreditation and certification">
+                <article class="accreditation-item">
+                    <span class="accreditation-number">01</span>
                     <h3>Minerals Commission of Ghana</h3>
+                    <p>Registered with the Minerals Commission of Ghana.</p>
+                </article>
 
-                    <p>
-                        Registered with the Minerals Commission of Ghana.
-                    </p>
-                </div>
-
-                <div class="accreditation-item">
+                <article class="accreditation-item">
+                    <span class="accreditation-number">02</span>
                     <h3>Environmental Protection Agency</h3>
+                    <p>Accredited by the Environmental Protection Agency.</p>
+                </article>
 
-                    <p>
-                        Accredited by the Environmental Protection Agency.
-                    </p>
-                </div>
-
-                <div class="accreditation-item">
-                    <h3>ISO Certified</h3>
-
-                    <p>
-                        Certified to ISO standards.
-                    </p>
-                </div>
-
+                <article class="accreditation-item">
+                    <span class="accreditation-number">03</span>
+                    <h3>ISO Certification</h3>
+                    <p>ISO Certified.</p>
+                </article>
             </div>
-
         </div>
     </section>
 
+    <section class="organisational-structure">
+        <div class="container organisation-layout">
+            <div class="organisation-copy">
+                <p class="section-label">HOW WE ARE STRUCTURED</p>
+             <h2>A Structured Team Supporting Project Delivery</h2>
+                <p>
+                    ESL combines technical personnel, project management and
+                    organisational oversight to support effective project delivery.
+                </p>
+            </div>
 
-    <!-- CTA -->
+            <div class="organisation-flow" aria-label="ESL organisational structure">
+                <div class="structure-level structure-level--primary">
+                    <span class="structure-number">01</span>
+                    <div>
+                        <h3>Technical Delivery</h3>
+                        <p>Experienced site officers and technical consultants form the core of project delivery.</p>
+                    </div>
+                </div>
+
+                <div class="structure-connector" aria-hidden="true"></div>
+
+                <div class="structure-level structure-level--management">
+                    <span class="structure-number">02</span>
+                    <div>
+                        <h3>Project Management</h3>
+                        <p>Each project is managed by a Project Manager responsible for coordinating the assignment.</p>
+                    </div>
+                </div>
+
+                <div class="structure-support">
+                    <span class="support-label"><span class="structure-number">05</span>Supporting function</span>
+                    <h3>Finance &amp; Administration</h3>
+                    <p>Finance and Administration provides supporting functions for project delivery.</p>
+                </div>
+
+                <div class="structure-connector" aria-hidden="true"></div>
+
+                <div class="structure-level structure-level--management">
+                    <span class="structure-number">03</span>
+                    <div>
+                        <h3>General Management</h3>
+                        <p>Project Managers report to the General Manager, providing management oversight across assignments.</p>
+                    </div>
+                </div>
+
+                <div class="structure-connector" aria-hidden="true"></div>
+
+                <div class="structure-level structure-level--leadership">
+                    <span class="structure-number">04</span>
+                    <div>
+                        <h3>Strategic Leadership</h3>
+                        <p>The CEO and Board provide strategic alignment and governance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="consultation-cta">
         <div class="container">
-
             <div class="cta-content">
-
                 <p class="section-label">WORK WITH ESL</p>
 
                 <h2>
@@ -279,9 +411,7 @@
                 <a href="/esl-consulting/contact.php" class="button button-primary">
                     Request a Consultation
                 </a>
-
             </div>
-
         </div>
     </section>
 

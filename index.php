@@ -5,7 +5,7 @@
 <section class="hero">
     <div class="hero-background">
         <img
-            src="/esl-consulting/static/images/consultants/consultants.jpg"
+            src="/esl-consulting/static/images/consultants/home.jpg"
             alt="ESL Consulting professionals"
         >
     </div>
@@ -88,69 +88,6 @@
     </div>
 </section>
 
-<section class="vision-mission home-direction" aria-labelledby="direction-title">
-    <div class="container">
-
-        <header class="direction-intro" data-direction-reveal="intro">
-            <h2 class="direction-label" id="direction-title">OUR DIRECTION</h2>
-            <span class="direction-accent" aria-hidden="true"></span>
-        </header>
-
-        <div class="direction-columns">
-            <article class="direction-vision" data-direction-reveal="vision">
-                <p class="direction-index">OUR VISION</p>
-                <h3 class="direction-statement">
-                    To be Africa’s leading indigenous provider of world-class
-                    Environment, Health, and Safety solutions, championing
-                    sustainable development, protecting lives, and preserving
-                    the natural wealth of our land for future generations.
-                </h3>
-            </article>
-
-            <div class="direction-divider" aria-hidden="true"></div>
-
-            <article class="direction-mission">
-                <p class="direction-index" data-direction-reveal="mission">OUR MISSION</p>
-                <p class="direction-mission-copy" data-direction-reveal="mission-copy">
-                    To deliver innovative, practical, and culturally aware EHS
-                    solutions that support Ghana and Africa’s industrial growth
-                    while ensuring the safety of people, protection of the
-                    environment, and compliance with national and international
-                    standards.
-                </p>
-                <p class="direction-principles-label" data-direction-reveal="principles">We achieve this through:</p>
-                <ol class="direction-principles" data-direction-reveal="principles">
-                    <li><span>01</span>Empowering local expertise and talent</li>
-                    <li><span>02</span>Upholding integrity and professionalism</li>
-                    <li><span>03</span>Engaging communities and regulators collaboratively</li>
-                    <li><span>04</span>Applying cutting-edge science with a deep respect for our local context</li>
-                </ol>
-            </article>
-        </div>
-
-        <section class="direction-structure" aria-labelledby="direction-structure-title">
-            <div class="direction-structure-copy">
-                <h2 class="direction-index" id="direction-structure-title" data-direction-reveal="structure-title">OUR STRUCTURE</h2>
-                <p data-direction-reveal="structure-intro">
-                    At ESL, our operations are driven by a strong technical foundation, with our experienced site officers and technical consultants at the core.
-                </p>
-                <p data-direction-reveal="structure-detail">
-                    Each project is managed by a dedicated Project Manager with the Finance and Administrative departments. Project Managers report to the General Manager who reports directly to the Chief Executive Officer (CEO). The CEO, with the Board of Directors, ensure strategic alignment and governance at the highest level.
-                </p>
-            </div>
-
-            <ol class="direction-flow" aria-label="Organisational structure" data-direction-reveal="structure-flow">
-                <li>TECHNICAL TEAM</li>
-                <li>PROJECT MANAGER</li>
-                <li>GENERAL MANAGER</li>
-                <li>CHIEF EXECUTIVE OFFICER</li>
-                <li>BOARD OF DIRECTORS</li>
-            </ol>
-        </section>
-
-    </div>
-</section>
-
     <!-- Services Overview -->
 <section class="services-overview">
     <div class="container">
@@ -183,22 +120,17 @@
                 <div class="expertise-copy">
                     <p class="expertise-number">ENVIRONMENT</p>
                     <h3>Environment</h3>
-                        <div class="expertise-services">
-                            <h4 class="expertise-service-heading">Environmental Monitoring Studies (EMS)</h4>
-                            <ul class="expertise-service-points">
-                                <li>Air and Noise Quality Monitoring</li>
-                                <li>Stack Emissions Monitoring</li>
-                                <li>Heat Stress Monitoring</li>
-                                <li>Water &amp; Effluent Monitoring (Surface + Groundwater)</li>
-                                <li>TSF &amp; Geotechnical Monitoring</li>
-                                <li>Ecological Monitoring</li>
-                            </ul>
-                            <ul class="expertise-service-list">
-                                <li>Environmental Impact Assessments (EIA)</li>
-                                <li>Environmental Management Plans (EMP)</li>
-                                <li>Reclamation Advisory and Ecological Supply Services</li>
-                            </ul>
-                        </div>
+                    <ul class="expertise-service-list">
+                        <li>Air and Noise Quality Monitoring</li>
+                        <li>Stack Emissions Monitoring</li>
+                        <li>Heat Stress Monitoring</li>
+                        <li>Water &amp; Effluent Monitoring (Surface + Groundwater)</li>
+                        <li>TSF &amp; Geotechnical Monitoring</li>
+                        <li>Ecological Monitoring</li>
+                        <li>Environmental Impact Assessments (EIA)</li>
+                        <li>Environmental Management Plans (EMP)</li>
+                        <li>Reclamation Advisory and Ecological Supply Services</li>
+                    </ul>
                     <a href="/esl-consulting/services.php" class="expertise-link">
                         Explore Environment →
                     </a>
@@ -238,7 +170,7 @@
                 <div class="expertise-image">
                     <img
                         class="expertise-image-photo"
-                        src="/esl-consulting/static/images/esg/esg.jpg"
+                        src="/esl-consulting/static/images/esg/esg1.jpg"
                         alt="Sustainability and ESG initiatives"
                     >
                 </div>
@@ -561,8 +493,18 @@
             </table>
         </div>
 
+        <figure class="projects-clients-logos">
+            <figcaption class="section-label">OUR CLIENTS</figcaption>
+            <img
+                src="/esl-consulting/static/images/logo/clients.png"
+                alt="ESL Consulting client logos"
+            >
+        </figure>
+
     </div>
 </section>
+
+<?php include 'includes/project-showcase.php'; ?>
 
 <!-- Consultation CTA -->
 <section class="consultation-cta">
