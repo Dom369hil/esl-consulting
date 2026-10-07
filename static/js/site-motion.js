@@ -1,4 +1,8 @@
 (() => {
+    document.querySelectorAll("[data-current-year]").forEach((year) => {
+        year.textContent = String(new Date().getFullYear());
+    });
+
     const contactForm = document.querySelector(".contact-page .contact-form");
 
     contactForm?.addEventListener("submit", (event) => {

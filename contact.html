@@ -1,5 +1,42 @@
-<?php include 'includes/header.php'; ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>ESL Consulting Ltd</title>
+
+    <link
+        rel="stylesheet"
+        href="/esl-consulting/static/css/style.css"
+    >
+</head>
+
+<body>
+
+<header class="site-header">
+    <div class="container">
+        <nav class="navbar" aria-label="Main navigation">
+
+            <a href="/esl-consulting/index.html" class="logo">
+                <img
+                    src="/esl-consulting/static/images/logo/logohead.png"
+                    alt="ESL Consulting Ltd"
+                >
+            </a>
+
+            <div class="nav-links">
+                <a href="/esl-consulting/index.html">Home</a>
+                <a href="/esl-consulting/about.html">About</a>
+                <a href="/esl-consulting/services.html">Services</a>
+                <a href="/esl-consulting/sectors.html">Sectors</a>
+                <a href="/esl-consulting/projects.html">Projects</a>
+                <a href="/esl-consulting/contact.html" aria-current="page">Contact</a>
+            </div>
+
+        </nav>
+    </div>
+</header>
 <main class="contact-page">
 
     <!-- Page Hero -->
@@ -256,5 +293,34 @@
 
 </main>
 
-<?php $footerVariant = 'minimal'; ?>
-<?php include 'includes/footer.php'; ?>
+<footer class="site-footer site-footer--minimal">
+    <div class="container">
+
+<div class="footer-minimal-main">
+            <section class="footer-column footer-brand">
+                <a href="/esl-consulting/index.html" class="footer-logo">
+                    <img
+                        src="/esl-consulting/static/images/logo/ESL%20Logo%20(2).png"
+                        alt="ESL Consulting Ltd"
+                    >
+                </a>
+                <div class="footer-brand-copy">
+                    <h2 class="footer-heading">ESL Consulting</h2>
+                    <p>Your Trusted Partner in Environment, Health, Safety and Sustainability Solutions</p>
+                </div>
+            </section>
+        </div>
+
+<div class="footer-bottom">
+            <p>&copy; <span data-current-year></span> ESL Consulting Ltd. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script
+    src="/esl-consulting/static/js/site-motion.js"
+    defer
+></script>
+
+</body>
+</html>
