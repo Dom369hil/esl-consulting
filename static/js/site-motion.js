@@ -3,6 +3,112 @@
         year.textContent = String(new Date().getFullYear());
     });
 
+    const siteHeader = document.querySelector(".site-header");
+    const navbar = siteHeader?.querySelector(".navbar");
+    const navToggle = siteHeader?.querySelector(".nav-toggle");
+    const navMenu = siteHeader?.querySelector(".nav-menu");
+
+    if (siteHeader && navbar && navToggle && navMenu) {
+        const setMenuOpen = (isOpen) => {
+            navbar.classList.toggle("is-open", isOpen);
+            siteHeader.classList.toggle("is-menu-open", isOpen);
+            navToggle.setAttribute("aria-expanded", String(isOpen));
+            navToggle.setAttribute(
+                "aria-label",
+                isOpen ? "Close navigation menu" : "Open navigation menu"
+            );
+        };
+
+        navToggle.addEventListener("click", () => {
+            setMenuOpen(navToggle.getAttribute("aria-expanded") !== "true");
+        });
+
+        navMenu.addEventListener("click", (event) => {
+            if (event.target.closest("a")) {
+                setMenuOpen(false);
+            }
+        });
+
+        document.addEventListener("pointerdown", (event) => {
+            if (!siteHeader.contains(event.target)) {
+                setMenuOpen(false);
+            }
+        });
+
+        document.addEventListener("keydown", (event) => {
+            if (event.key === "Escape" && navbar.classList.contains("is-open")) {
+                setMenuOpen(false);
+                navToggle.focus();
+            }
+        });
+
+        window.matchMedia("(min-width: 901px)").addEventListener("change", () => {
+            setMenuOpen(false);
+        });
+
+        let previousScrollY = window.scrollY;
+        const revealHeader = () => {
+            siteHeader.classList.remove("is-hidden");
+            siteHeader.inert = false;
+        };
+
+        window.addEventListener("scroll", () => {
+            const currentScrollY = window.scrollY;
+            const scrollingUp = currentScrollY < previousScrollY;
+            const scrollingDown = currentScrollY > previousScrollY;
+            if ((scrollingUp || scrollingDown) && navbar.classList.contains("is-open")) {
+                setMenuOpen(false);
+            }
+
+            const headerHasFocus = siteHeader.contains(document.activeElement);
+
+            if (scrollingUp || headerHasFocus) {
+                revealHeader();
+            } else if (scrollingDown) {
+                siteHeader.classList.add("is-hidden");
+                siteHeader.inert = true;
+            }
+
+            previousScrollY = currentScrollY;
+        }, { passive: true });
+
+        siteHeader.addEventListener("focusin", revealHeader);
+    }
+
+    const whySection = document.querySelector(".why-esl");
+    const reasonsToggle = whySection?.querySelector(".why-esl-toggle");
+    const additionalReasons = whySection?.querySelectorAll("[data-why-additional]");
+    const mobileReasons = window.matchMedia("(max-width: 680px)");
+
+    if (whySection && reasonsToggle && additionalReasons?.length) {
+        let reasonsExpanded = false;
+
+        const updateReasons = () => {
+            additionalReasons.forEach((reason) => {
+                reason.hidden = mobileReasons.matches && !reasonsExpanded;
+            });
+
+            reasonsToggle.hidden = !mobileReasons.matches;
+            reasonsToggle.setAttribute(
+                "aria-expanded",
+                String(mobileReasons.matches && reasonsExpanded)
+            );
+            reasonsToggle.textContent = reasonsExpanded ? "Show Less" : "View All Reasons";
+        };
+
+        reasonsToggle.addEventListener("click", () => {
+            reasonsExpanded = !reasonsExpanded;
+            updateReasons();
+        });
+
+        mobileReasons.addEventListener("change", () => {
+            reasonsExpanded = false;
+            updateReasons();
+        });
+
+        updateReasons();
+    }
+
     const contactForm = document.querySelector(".contact-page .contact-form");
 
     contactForm?.addEventListener("submit", (event) => {

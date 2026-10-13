@@ -17,23 +17,26 @@
 <header class="site-header">
     <div class="container">
         <nav class="navbar" aria-label="Main navigation">
-
-            <a href="/esl-consulting/index.html" class="logo">
-                <img
-                    src="/esl-consulting/static/images/logo/logohead.png"
-                    alt="ESL Consulting Ltd"
-                >
-            </a>
-
-            <div class="nav-links">
-                <a href="/esl-consulting/index.html" aria-current="page">Home</a>
-                <a href="/esl-consulting/about.html">About</a>
-                <a href="/esl-consulting/services.html">Services</a>
-                <a href="/esl-consulting/sectors.html">Sectors</a>
-                <a href="/esl-consulting/projects.html">Projects</a>
-                <a href="/esl-consulting/contact.html">Contact</a>
+            <div class="nav-menu" id="primary-navigation">
+                <div class="nav-links nav-links-left">
+                    <a href="/esl-consulting/index.html" aria-current="page">Home</a>
+                    <a href="/esl-consulting/about.html">About</a>
+                    <a href="/esl-consulting/services.html">Services</a>
+                </div>
+                <div class="nav-links nav-links-right">
+                    <a href="/esl-consulting/projects.html">Projects</a>
+                    <a href="/esl-consulting/sectors.html">Sectors</a>
+                    <a href="/esl-consulting/contact.html">Contact</a>
+                </div>
             </div>
-
+            <a href="/esl-consulting/index.html" class="logo">
+                <img src="/esl-consulting/static/images/logo/logohead.png" alt="ESL Consulting Ltd">
+            </a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </nav>
     </div>
 </header>
@@ -391,12 +394,23 @@
 
                     <div class="why-esl-partnership-copy">
                         <p>We take pride in our rigorous, science-led approach to EHSS consulting, ensuring that every recommendation is backed by sound technical analysis and policy insight.</p>
-                        <p>From oil and gas to mining and infrastructure, our team evaluates the economic, environmental, and social impacts of proposed developments to guide clients toward the most sustainable implementation strategies.</p>
+                        <p id="why-esl-additional-one" data-why-additional>From oil and gas to mining and infrastructure, our team evaluates the economic, environmental, and social impacts of proposed developments to guide clients toward the most sustainable implementation strategies.</p>
+                        <div class="why-esl-reason-heading why-esl-mobile-reason-heading">
+                            <span class="why-esl-reason-number">03</span>
+                            <h3>Iterative and Adaptive Process</h3>
+                        </div>
                         <p>Rather than offering generic solutions, we adopt an iterative and adaptive process, combining research, stakeholder engagement, and technical-economic modeling to deliver tailored, practical outcomes.</p>
-                        <p>With ESL, you get a partner that helps you build resilient, future-ready projects grounded in local understanding and global best practices.</p>
+                        <p id="why-esl-additional-two" data-why-additional>With ESL, you get a partner that helps you build resilient, future-ready projects grounded in local understanding and global best practices.</p>
                     </div>
                 </article>
 
+                <button
+                    class="button button-secondary why-esl-toggle"
+                    type="button"
+                    aria-expanded="false"
+                    aria-controls="why-esl-additional-one why-esl-additional-two"
+                    hidden
+                >View All </button>
             </div>
 
         </div>
@@ -633,7 +647,7 @@
                 <h2 class="footer-heading">ESL Consulting</h2>
                 <a href="/esl-consulting/index.html" class="footer-logo">
                     <img
-                        src="/esl-consulting/static/images/logo/ESL%20Logo%20(2).png"
+                        src="/esl-consulting/static/images/logo/logohead.png"
                         alt="ESL Consulting Ltd"
                     >
                 </a>

@@ -17,23 +17,26 @@
 <header class="site-header">
     <div class="container">
         <nav class="navbar" aria-label="Main navigation">
-
-            <a href="/esl-consulting/index.html" class="logo">
-                <img
-                    src="/esl-consulting/static/images/logo/logohead.png"
-                    alt="ESL Consulting Ltd"
-                >
-            </a>
-
-            <div class="nav-links">
-                <a href="/esl-consulting/index.html">Home</a>
-                <a href="/esl-consulting/about.html">About</a>
-                <a href="/esl-consulting/services.html">Services</a>
-                <a href="/esl-consulting/sectors.html">Sectors</a>
-                <a href="/esl-consulting/projects.html" aria-current="page">Projects</a>
-                <a href="/esl-consulting/contact.html">Contact</a>
+            <div class="nav-menu" id="primary-navigation">
+                <div class="nav-links nav-links-left">
+                    <a href="/esl-consulting/index.html">Home</a>
+                    <a href="/esl-consulting/about.html">About</a>
+                    <a href="/esl-consulting/services.html">Services</a>
+                </div>
+                <div class="nav-links nav-links-right">
+                    <a href="/esl-consulting/projects.html" aria-current="page">Projects</a>
+                    <a href="/esl-consulting/sectors.html">Sectors</a>
+                    <a href="/esl-consulting/contact.html">Contact</a>
+                </div>
             </div>
-
+            <a href="/esl-consulting/index.html" class="logo">
+                <img src="/esl-consulting/static/images/logo/logohead.png" alt="ESL Consulting Ltd">
+            </a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </nav>
     </div>
 </header>
@@ -264,7 +267,7 @@
                 <h2 class="footer-heading">ESL Consulting</h2>
                 <a href="/esl-consulting/index.html" class="footer-logo">
                     <img
-                        src="/esl-consulting/static/images/logo/ESL%20Logo%20(2).png"
+                        src="/esl-consulting/static/images/logo/logohead.png"
                         alt="ESL Consulting Ltd"
                     >
                 </a>
